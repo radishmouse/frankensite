@@ -1,0 +1,9 @@
+/* h1  */
+/* #logo-text */
+.logo-text
+{
+    color: rgba(0,0,0,.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 18px;
+}
