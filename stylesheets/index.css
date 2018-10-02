@@ -15,10 +15,21 @@
     /* font-size: 1.5rem; */
     /* font-size: 1.5em; */
     font-size: 18px;
+    display: inline-block;
+    /* outline: 1px solid red; */
+    margin-right: 20px;
+    /* padding-right: 50px; */
+    /* background-color: yellow; */
+}
+
+.nav-container {
+    display: inline-block;
+    /* outline: 1px solid blue; */
 }
 
 .nav-link
 {
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    margin-right: 8px;
 }
