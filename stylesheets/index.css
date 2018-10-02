@@ -17,6 +17,7 @@ html, body {
 
 body {
     /* outline: 1px solid blue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header-text {
@@ -37,7 +38,6 @@ body {
 .logo-text
 {
     color: rgba(0,0,0,.9);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* font-size: 1.5rem; */
     /* font-size: 1.5em; */
     font-size: 18px;
