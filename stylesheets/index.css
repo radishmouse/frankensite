@@ -2,8 +2,34 @@
     font-size: 3rem;
 } */
 
+html, body {
+    /* single value for all 4 sides */
+    padding: 0;
+    margin: 0;
+
+    /* 
+
+        set margin & padding to 0 
+        so that elements stretch to 
+        edge of browser window.
+     */
+}
+
+body {
+    /* outline: 1px solid blue; */
+}
+
 .header-text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    /* two values: top/bottom  left/right */
+    padding: 0 8px;
+    /* padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-right: 8px; */
+
+    /* outline: 1px solid red; */
 }
 
 /* h1  */
@@ -32,4 +58,17 @@
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     margin-right: 8px;
+}
+
+.hero-image {
+    /* 
+    Because the image is in a different folder,
+    must use ../images/ before the file name.
+     */
+    background-image: url(../images/adventure-calm-clouds-414171.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 500px;
+    min-width: 100%;
 }
