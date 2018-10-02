@@ -70,8 +70,31 @@ body {
     background-position: top center;
     background-size: cover;
     min-height: 300px;
-    min-width: 100%;    
+    min-width: 100%;
+    /* opacity: 0.3; */
 }
+
+/* "descendant selector" */
+/* 
+.hero-text h2 {
+    font-family: fantasy;
+}     */
+
+.hero-image h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* color: #ffffff; */
+    color: #fff;
+    /* color: rgba(255, 255, 255, 0.9); */
+}    
+
+/* 
+using an ID, which is more specific and 
+overrides the other font-family declarations.
+*/
+/* #lalalala {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
 
 /* Flexbox!!!! Aw yeah! */
 .center-center {
