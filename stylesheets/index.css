@@ -109,5 +109,12 @@ overrides the other font-family declarations.
 }
 /* img adapts to container */
 .profile-image img {
+    /*
+    constrain either by width OR height.
+    not both.
+    that messes up the aspect ratio.
+     */
     width: 100%;
+    border-radius: 50%;
 }
+
