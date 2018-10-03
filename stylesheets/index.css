@@ -103,9 +103,24 @@ overrides the other font-family declarations.
     align-items: center;
 }
 
+.about-me {
+    padding: 0 8px;
+}
+
+/* 
+no effect, because paragraphs
+are full width already.
+no room for margin. 
+*/
+/* .about-me p {
+    margin: 0 auto;
+} */
+
 /* container determines max size */
 .profile-image {
     width: 130px;
+    /* another centering technique! */
+    margin: 0 auto;    
 }
 /* img adapts to container */
 .profile-image img {
@@ -118,3 +133,24 @@ overrides the other font-family declarations.
     border-radius: 50%;
 }
 
+/* 
+Response Web Design Implementation
+a.k.a. Media Queries!
+if/else statements for your CSS
+ */
+/* 
+Common "breakpoints"
+S, M, L, XL, Party size
+
+500px
+768px
+1024px
+1200px
+1400px
+*/
+
+@media screen and (min-width: 500px) {
+    .profile-image {
+        outline: 5px solid red;
+    }
+}
