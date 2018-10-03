@@ -215,4 +215,24 @@ S, M, L, XL, Party size
         font-size: 48px;
         /* outline: 1px solid red; */
     }
+
+    .header-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+    }
+
+    .header-text > * {
+        /* outline: 1px solid red; */
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .header-text > nav {
+        /* 
+        do not render! 
+        
+        */
+        /* display: none; */
+    }
 }
