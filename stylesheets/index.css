@@ -175,6 +175,7 @@ S, M, L, XL, Party size
     */
     .about-me {
         display: flex;
+        flex-direction: row-reverse;
     }
 
     /* "descendant" selector */
@@ -207,4 +208,11 @@ S, M, L, XL, Party size
     }
 
 
+}
+
+@media screen and (min-width: 700px) {
+    .hero-text h2 {
+        font-size: 48px;
+        /* outline: 1px solid red; */
+    }
 }
