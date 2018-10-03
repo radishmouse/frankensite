@@ -118,7 +118,7 @@ no room for margin.
 
 /* container determines max size */
 .profile-image {
-    width: 130px;
+    width: 350px;
     /* another centering technique! */
     margin: 0 auto;    
 }
@@ -151,6 +151,7 @@ S, M, L, XL, Party size
 
 @media screen and (min-width: 500px) {
     .profile-image {
-        outline: 5px solid red;
+        /* outline: 5px solid red; */
+        width: 200px;
     }
 }
