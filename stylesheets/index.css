@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* html {
     font-size: 3rem;
 } */
@@ -161,6 +168,11 @@ S, M, L, XL, Party size
     4. Tweak the sizes because it'll look jacked up on the first few attempts.
     */
 
+    /* 
+    Anywhere you want to shift the layout, add
+    a wrapper div (or section) and turn it into
+    a flex parent (a.k.a. a "flex container")
+    */
     .about-me {
         display: flex;
     }
@@ -176,9 +188,22 @@ S, M, L, XL, Party size
     {
         outline: 1px solid red;
     }
+
+    .about-me-container {
+        /* 
+        box-sizing: border-box 
+        makes this behave in a sane way.
+
+        without it, the .about-me-container takes up 70% + 18px
+        */
+        width: 70%;
+        padding-right: 18px;
+    }
+
     .profile-image {
         /* outline: 5px solid red; */
-        width: 200px;
+        /* width: 200px; */
+        width: 30%;
     }
 
 
