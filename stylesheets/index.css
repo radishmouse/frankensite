@@ -150,8 +150,36 @@ S, M, L, XL, Party size
 */
 
 @media screen and (min-width: 500px) {
+
+    /*  
+    1. Turn the .about-me section into a flex container
+    
+    2. Set the width of .about-me-container so that it takes up 70% of the width
+
+    3. Set the width of .profile-image so that it looks good.
+
+    4. Tweak the sizes because it'll look jacked up on the first few attempts.
+    */
+
+    .about-me {
+        display: flex;
+    }
+
+    /* "descendant" selector */
+    .about-me div {
+        /* these apply to any div
+        anywhere inside of .about-me */
+    }
+
+    /* "Direct child" selector */
+    .about-me > div 
+    {
+        outline: 1px solid red;
+    }
     .profile-image {
         /* outline: 5px solid red; */
         width: 200px;
     }
+
+
 }
