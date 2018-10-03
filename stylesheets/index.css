@@ -186,7 +186,7 @@ S, M, L, XL, Party size
     /* "Direct child" selector */
     .about-me > div 
     {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
     }
 
     .about-me-container {
