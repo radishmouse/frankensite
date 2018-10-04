@@ -148,12 +148,20 @@ no room for margin.
     justify-content: flex-end;
 }
 
-.contact-links .fab {
+.contact-links .fab,
+.contact-links .fas {
     color: white;
     margin: 0 8px;
     font-size: 36px;
 }
 
+.contact-links a:hover .fab,
+.contact-links a:hover .fas,
+.contact-links a:active .fab,
+.contact-links a:active .fas
+{
+    color: red;
+}
 
 
 /* 
