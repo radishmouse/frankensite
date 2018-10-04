@@ -153,6 +153,13 @@ no room for margin.
     color: white;
     margin: 0 8px;
     font-size: 36px;
+    /* transition: all .5s; */
+    /* transition: font-size .5s, color: .2s; */
+    transition: font-size .5s;
+}
+
+.contact-links a:hover {
+    cursor: pointer;
 }
 
 .contact-links a:hover .fab,
@@ -161,8 +168,8 @@ no room for margin.
 .contact-links a:active .fas
 {
     color: red;
+    font-size: 48px;
 }
-
 
 /* 
 Response Web Design Implementation
