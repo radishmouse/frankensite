@@ -1,3 +1,18 @@
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(2.5);
+    }
+
+    100% {
+        transform: scale(1.7);
+    }
+}
+
+
 html {
     box-sizing: border-box;
 }
@@ -156,7 +171,7 @@ no room for margin.
     /* transition: all .5s; */
     /* transition: font-size .5s, color: .2s; */
     /* transition: transform .25s cubic-bezier(.89,1.38,.39,-0.53); */
-    transition: transform .25s ease-in-out .1s;
+    /* transition: transform .25s ease-in-out .1s; */
 }
 
 .contact-links a {
@@ -175,7 +190,13 @@ no room for margin.
 {
     color: red;
     /* font-size: 48px; */
-    transform: scale(1.7);
+    /* transform: scale(1.7); */
+     /* transform */
+     animation-name: zoom;
+     animation-duration: .1s;
+     animation-fill-mode: forwards;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: 3;
 }
 
 /* 
