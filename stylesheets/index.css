@@ -140,6 +140,22 @@ no room for margin.
     border-radius: 50%;
 }
 
+.contact-links {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 18px 12px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-links .fab {
+    color: white;
+    margin: 0 8px;
+    font-size: 36px;
+}
+
+
+
 /* 
 Response Web Design Implementation
 a.k.a. Media Queries!
